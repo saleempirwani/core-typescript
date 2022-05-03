@@ -1,0 +1,26 @@
+{
+  "name": "core-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently -k -n COMPILER,NODEMON, -c yellow,blue \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saleempirwani/core-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saleempirwani/core-typescript/issues"
+  },
+  "homepage": "https://github.com/saleempirwani/core-typescript#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
